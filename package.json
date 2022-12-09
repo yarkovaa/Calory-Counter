@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "edit-package-json": "^0.8.2",
+    "eslint": "8.15.0",
+    "pristinejs": "^0.1.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "eslint": "8.15.0",
+    "eslint-config-htmlacademy": "5.1.2"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --no-ui --files \"js/**/*.js\"",
+    "lint": "eslint js/",
+    "fix": "eslint --fix --ext .js,.jsx ."
+  }
+}
